@@ -3,7 +3,6 @@ body {
       color: white;
       font-family: courier new;
       text-align: center;
-      padding: 40px;
       display: flex;
       flex-direction: column;
       margin-top: 40px;
