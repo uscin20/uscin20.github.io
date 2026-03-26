@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Grzybobranie</title>
+    <title>Mayster's</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="pieczarka.png" type="image/x-icon">
@@ -10,42 +10,18 @@
 <body>
 <script src="script.js"></script>
 <div class="header">
-    <a href="index"><img src="pieczarka.png" class="logo"></a>
-    <div class="title">Grzybobranie</div>
-    <a href="admin"><img src="pmka.png" class="logor"></a>
+    <div class="title">WELCOME AT MAYSTER'S</div>
 </div>
 
 <div class="main">
     <img src="radioqr.png" style="height:250px;">
     <h1>Instrukcja gry</h1>
     <p style="font-family: courier; font-size: 20px; font-weigt: bold; text-align: center;">
-        Witaj w grze! Twoim celem będzie znalezienie 4 kodów QR takich jak ten, który właśnie zeskanował*ś. Po zeskanowaniu każdego z nich staniesz przed pytaniem 
-        dotyczącym ośrodka wypoczynkowego Pałacu Młodzieży w Pieczarkach. Po wybraniu odpowiedzi wyświetli się cyfra. Zapamiętaj ją, oraz która to odpowiedź
-        lub zapisz, to ważne! Pamiętaj, żeby nie psuć innym zabawy i wyrównać szanse nie dziel się odpowiedziami. Również uprasza się o niezdejmowanie kodów z 
-        miejsc, w których są powieszone<br>Po zebraniu wszystkich 4 elementów wróć tutaj i wpisz hasło w polu poniżej.<br>Powodzenia!
+        Welcome at Mayster's. We hope that you will find here what you are looking for.
     </p>
+    <a href="https://uscin20.githu.io">>RADIO<</a>
+    <a href=""></a>
     <br>
-    <div class="password-check">
-    <input type="text" id="password" placeholder="****" autocomplete="off">
-    <button onclick="checkPassword()">Sprawdź</button>
-</div>
-
-<script>
-    // Tutaj wpisz swoje hasło
-    const correctPassword = "1955";
-
-    function checkPassword() {
-        const userInput = document.getElementById("password").value;
-
-        if(userInput === correctPassword) {
-            window.location.href = "win.html";
-        } else {
-            alert("Spróbuj jeszcze raz.");
-        }
-    }
-</script>
-
-
 </div>
 
 <div class="footer">
