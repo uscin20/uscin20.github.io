@@ -45,7 +45,7 @@ a {
       font-size: 30px;
       text-align: center;
 }
-a:href {
+a:hover {
       font-weight: bold;
       color: white;
       padding-top: 5px;
