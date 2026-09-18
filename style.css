@@ -26,9 +26,9 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 25px;
-    font-weight: bold;
-    font-family: courier new !important;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: courier new;
 }
 .header .logo {
     width: 50px;
