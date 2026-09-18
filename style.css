@@ -63,3 +63,8 @@ body {
 .header {
     padding: 0 15px;
 }
+a {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
